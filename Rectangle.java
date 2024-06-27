@@ -18,7 +18,7 @@ public class Rectangle {
 	}
 	
 	public double perimeter() {
-		return TL.distance(BL) * 2 + TL.distance((TR));
+		return TL.distance(BL) * 2 + TL.distance(TR) * 2;
 	}
 	
 	public boolean isSquare() {
